@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Puzzle Huruf"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/gridLayoutPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/tileA"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="A" />
+
+        <Button
+            android:id="@+id/tileE"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:text="E"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/tileI"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_rowSpan="1"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:text="I"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/tileM"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_rowSpan="1"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:text="M"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/tileB"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="B" />
+
+        <Button
+            android:id="@+id/tileF"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="F" />
+
+        <Button
+            android:id="@+id/tileJ"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="J" />
+
+        <Button
+            android:id="@+id/tileN"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="N" />
+
+        <Button
+            android:id="@+id/tileC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="C" />
+
+        <Button
+            android:id="@+id/tileG"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="G" />
+
+        <Button
+            android:id="@+id/tileK"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_rowSpan="1"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="K" />
+
+        <Button
+            android:id="@+id/tileO"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_rowSpan="1"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="O" />
+
+        <Button
+            android:id="@+id/tileD"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="D" />
+
+        <Button
+            android:id="@+id/tileH"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="H" />
+
+        <Button
+            android:id="@+id/tileL"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_rowSpan="1"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:text="L" />
+
+        <Button
+            android:id="@+id/tile_empty"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_rowSpan="1"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+    </GridLayout>
+
+</RelativeLayout>

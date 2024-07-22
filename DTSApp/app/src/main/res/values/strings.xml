@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DTSApp</string>
+    <string-array name="gender_options">
+        <item>Perempuan</item>
+        <item>Laki-laki</item>
+    </string-array>
+</resources>
